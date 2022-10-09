@@ -22,11 +22,13 @@ h1 {
 
 img {
 
+	
 	height: 300px;
 	width: 300px;
 	padding: 20px;
 	border-radius: 50%;
 	filter: grayscale(35%);
+	
 
 }
 
@@ -35,6 +37,7 @@ p {
 	text-align: center;
 	font-family: courier new;
 	font-size: 20;
+	
 
 }
 
@@ -44,14 +47,27 @@ legend {
 	font-family: courier new;
 	font-size: 20px;
 	padding: 0 20px;
+	
 
 }
 
 fieldset {
 
+	border: solid 1px;
 	border-radius: 20px 20px 20px 20px;
 	text-align: center;
 	margin-left: 100px;
 	margin-right: 100px;
+	
 
+}
+
+nav {
+
+	border: solid 1px;
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+		
 }
